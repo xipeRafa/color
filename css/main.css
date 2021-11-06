@@ -1,0 +1,313 @@
+/*Hoja de estilos*/
+
+.contenedor {
+    width: 100%;
+    height: 54px;
+    margin: 6px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF5EE;
+}
+
+.note {
+    width: 100px;
+    height: 46px;
+    cursor: pointer;
+    border: .2px solid gray;
+}
+
+.note:nth-child(1) {
+    background: #003300;
+}
+
+.note:nth-child(2) {
+    background: green;
+}
+
+.note:nth-child(3) {
+    background: #F6E312;
+}
+
+.note:nth-child(4) {
+    background: pink;
+}
+
+.note:nth-child(5) {
+    background: #4ca64c;
+}
+
+.note:nth-child(6) {
+    background: #FDFD96;
+}
+
+.note:nth-child(7) {
+    background: #FF8C00;
+}
+
+
+/*---------------------------------------segunda fila------------------------------*/
+
+.note2:nth-child(1) {
+    background: -webkit-linear-gradient(#4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, red, red, red, red, red, red, red);
+}
+
+.note2:nth-child(2) {
+    background: blue;
+}
+
+.note2:nth-child(3) {
+    background: -webkit-linear-gradient(pink, pink, pink, pink, pink, pink, pink, red, red, red, red, red, red, red);
+}
+
+.note2:nth-child(4) {
+    background: yellow;
+}
+
+.note2:nth-child(5) {
+    background: -webkit-linear-gradient(#FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, red, red, red, red, red, red, red);
+}
+
+.note2:nth-child(6) {
+    background: #000099;
+}
+
+.note2:nth-child(7) {
+    background: -webkit-linear-gradient(gray, gray, gray, gray, gray, gray, gray, red, red, red, red, red, red, red);
+}
+
+
+/*----------------------------------tercer fila--------------------------------------*/
+
+.note3:nth-child(1) {
+    background: -webkit-linear-gradient(#4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, yellow, yellow, yellow, yellow, yellow, yellow, yellow);
+}
+
+.note3:nth-child(2) {
+    background: -webkit-linear-gradient(pink, pink, pink, pink, pink, pink, pink, yellow, yellow, yellow, yellow, yellow, yellow, yellow);
+}
+
+.note3:nth-child(3) {
+    background: -webkit-linear-gradient(#FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, blue, blue, blue, blue, blue, blue, blue);
+}
+
+.note3:nth-child(4) {
+    background: -webkit-linear-gradient(yellow, yellow, yellow, yellow, yellow, yellow, yellow, blue, blue, blue, blue, blue, blue, blue);
+}
+
+.note3:nth-child(5) {
+    background: -webkit-linear-gradient(#4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, #4ca64c, blue, blue, blue, blue, blue, blue, blue);
+}
+
+
+/*----------------CUARTA FILA---------------------------------------------*/
+
+.note4:nth-child(1) {
+    background: -webkit-linear-gradient(#FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, yellow, yellow, yellow, yellow, yellow, yellow, yellow);
+}
+
+.note4:nth-child(2) {
+    background: -webkit-linear-gradient(#000099, #000099, #000099, #000099, #000099, #000099, #000099, yellow, yellow, yellow, yellow, yellow, yellow, yellow);
+}
+
+.note4:nth-child(3) {
+    background: -webkit-linear-gradient(#000099, #000099, #000099, #000099, #000099, #000099, #000099, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00);
+}
+
+.note4:nth-child(4) {
+    background: -webkit-linear-gradient(yellow, yellow, yellow, yellow, yellow, yellow, yellow, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00, #FF8C00);
+}
+
+
+/*--QUINTA FILA--*/
+
+.note5:nth-child(1) {
+    background: pink;
+}
+
+.note5:nth-child(2) {
+    background: #367588;
+}
+
+.note5:nth-child(3) {
+    background: #FF9E75;
+}
+
+.note5:nth-child(4) {
+    background: #e3e4e5;
+}
+
+.note5:nth-child(5) {
+    background: #99FF66;
+}
+
+.note5:nth-child(6) {
+    background: #FFCC00;
+}
+
+.note5:nth-child(7) {
+    background: navy;
+}
+
+
+/*SEXTA FILA*/
+
+.note6:nth-child(1) {
+    background: #003300;
+}
+
+.note6:nth-child(2) {
+    background: #e0b0ff;
+}
+
+.note6:nth-child(3) {
+    background: #e0fe75;
+}
+
+.note6:nth-child(4) {
+    background: black;
+}
+
+.note6:nth-child(5) {
+    background: #FF1493;
+}
+
+.note6:nth-child(6) {
+    background: yellow;
+}
+
+.note6:nth-child(7) {
+    background: lime;
+}
+
+
+/*--------SEPTIMA FILA--------------*/
+
+.note7:nth-child(1) {
+    background: #341216;
+}
+
+.note7:nth-child(2) {
+    background: #B87333;
+}
+
+.note7:nth-child(3) {
+    background: #E50000;
+}
+
+.note7:nth-child(4) {
+    background: #49311C;
+}
+
+.note7:nth-child(5) {
+    background: gray;
+}
+
+.note7:nth-child(6) {
+    background: purple;
+}
+
+.note7:nth-child(7) {
+    background: #367588;
+}
+
+
+/*------------------OCTAVA FILA-----------*/
+
+.note8:nth-child(1) {
+    background: blue;
+}
+
+.note8:nth-child(2) {
+    background: #ff4c4c;
+}
+
+.note8:nth-child(3) {
+    background: -webkit-linear-gradient(#FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, lime, lime, lime, lime, lime, lime, lime);
+}
+
+.note8:nth-child(4) {
+    background: -webkit-linear-gradient(#FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #E50000, #E50000, #E50000, #E50000, #E50000, #E50000, #E50000);
+}
+
+.note8:nth-child(5) {
+    background: -webkit-linear-gradient(#99FF66, #99FF66, #99FF66, #99FF66, #99FF66, #99FF66, #99FF66, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96);
+}
+
+.note8:nth-child(6) {
+    background: -webkit-linear-gradient(#B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #341216, #341216, #341216, #341216, #341216, #341216, #341216);
+}
+
+.note8:nth-child(7) {
+    background: -webkit-linear-gradient(#B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5);
+}
+
+
+/*novena fila*/
+
+.note9:nth-child(1) {
+    background: -webkit-linear-gradient(purple, purple, purple, purple, purple, purple, purple, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5);
+}
+
+.note9:nth-child(2) {
+    background: -webkit-linear-gradient(#B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #B87333, #367588, #367588, #367588, #367588, #367588, #367588, #367588);
+}
+
+.note9:nth-child(3) {
+    background: -webkit-linear-gradient(purple, purple, purple, purple, purple, purple, purple, #367588, #367588, #367588, #367588, #367588, #367588, #367588);
+}
+
+.note9:nth-child(4) {
+    background: -webkit-linear-gradient(#FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5, #e3e4e5);
+}
+
+.note9:nth-child(5) {
+    background: -webkit-linear-gradient(#341216, #341216, #341216, #341216, #341216, #341216, #341216, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96);
+}
+
+.note9:nth-child(6) {
+    background: -webkit-linear-gradient( #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FFCC00, #FFCC00, #FFCC00, #FFCC00, #FFCC00, #FFCC00, #FFCC00);
+}
+
+.note9:nth-child(7) {
+    background: -webkit-linear-gradient(#FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, #FDFD96, navy, navy, navy, navy, navy, navy, navy);
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    color: #888;
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        height: 50px;
+        margin: 13px auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contenedor {
+        height: 70px;
+        margin: 4px auto;
+        width: 96%;
+    }
+    .note {
+        width: 118px;
+        height: 54px;
+    }
+}
+
+@media (max-width: 350px) {
+    .contenedor {
+        height: 46px;
+        margin: 4px auto;
+        width: 92%;
+    }
+}
